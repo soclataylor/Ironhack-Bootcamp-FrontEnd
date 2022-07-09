@@ -12,3 +12,17 @@
             dark blue: rgb(25, 33, 41)
             text: rgb(0,0,0)
 */
+
+body 
+{
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+    width: 100vw;    
+
+}
+
+#form-container 
+{
+    margin: auto;
+}
