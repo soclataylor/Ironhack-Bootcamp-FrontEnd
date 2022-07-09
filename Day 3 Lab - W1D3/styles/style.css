@@ -1,0 +1,221 @@
+/*
+            MARIONA BATALLA TAYLOR
+            mariona.batalla.taylor@gmail.com
+            IronHack
+            Day 3 Lab
+            June 2022
+*/
+
+/*
+            COLOR TABLE:
+            blue: rgb(67, 163, 230)
+            dark blue: rgb(25, 33, 41)
+            text: rgb(0,0,0)
+*/
+/*
+    We import the font Roboto from Google Fonts:
+
+    it adds a reference to two different fonts:
+
+        Roboto, with weights of 100, 300, and 700.
+        Roboto Condensed, with weight 700.
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
+
+html, body 
+{
+     /*     This is going to remove all the elements' margin and padding.
+            We set margin and padding to 0 to reset browser default styles.*/
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body
+{
+    /*      the font properties for the whole document: */
+    font-family: "Roboto";
+    font-size: 10px;
+    line-height: 3.5em;
+    font-weight: 300;
+}
+
+
+/*      we set the font for headers*/
+h1, h2, h3, h4, h5,h6
+ {
+
+    font-family: "Roboto Condensed";
+}
+
+/*      text properties for headers */
+h1
+{
+    font-size: 9em;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+h2
+{
+    font-size: 5em;
+    text-align:center;
+    text-transform:uppercase;
+    /*  to add distance between h1 and h2 */
+    line-height: 4em;
+    color:white;
+    /*we add shadow*/
+    text-shadow: #020819 8px -20px 9px;
+}
+
+
+h3
+{
+    font-size: 4.2em;
+    text-align:center;
+    line-height: 1em;
+}
+
+h4
+{
+    font-size: 1.5em;
+    letter-spacing: 0.4px;
+    line-height: 1em;
+}
+
+h5
+{
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+/****************      NAVIGATION MENU       ***************/
+.nav-bar
+{
+    background-color: rgb(25, 33, 41);
+    color:white
+}
+
+.nav-bar ul
+{
+    list-style-type: none;
+}
+
+.nav-bar a /*links in nav-bar*/
+{
+    /*  styles to be added here    */
+    color:white;
+    text-decoration:none; /* we don't want them to be underlined */
+    font-size:2em;
+
+}
+
+/****************       HEADER       ***************/
+.header
+{
+    /*  background */
+    background-image: url("https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg");
+    background-position: 0 0; /*position of the background-image to 0px horizontal and 0px vertical*/
+    background-repeat:no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+    height:650px;
+}
+
+.quote
+{
+    font-size: 2.5em;
+}
+
+/****************       SECTION 1: GENERAL INFORMATION      ***************/
+
+.dark-background
+{
+    background-color:rgb(25, 33, 41);
+    color:white;
+}
+
+/* each paragraph in #general-information */
+.text
+{
+    font-size: 2em;
+    font-weight: 100;
+    text-align: center;
+}
+
+/*  we wil have the links bottom-formed */
+.link-btn
+{
+    background-color: rgb(67, 163, 230);
+    color:white;
+    font-family: "Roboto Condensed";
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-align:center;
+    text-decoration:none;
+}
+
+
+/****************       SECTION 2: STRUCTURE      ***************/
+.service-box
+{
+    font-size:1.7em;
+    text-align:center;
+}
+
+
+/* all the img classes, inside the service-box class.*/
+.service-box img 
+{
+    width:125px;
+
+}
+
+
+/****************       SECTION 3: TEAM      ***************/
+#team .section-text 
+{
+    font-size:1.9em;
+    text-align:center;
+}
+
+#team .member-name
+{
+    font-size:1.5em;
+    font-weight: 700;
+}
+
+#team img 
+{  
+    width:250px;
+    height:180px;
+}
+
+
+/****************       FOOTER      ***************/
+.footer
+{
+    text-align:center;
+    font-size: 1.9em;
+}
+
+.address
+{
+    font-style:normal;
+    font-size: 0.8em;
+}
+
+.footer a /*links in footer*/
+{
+    color:rgb(67, 163, 230);
+    text-decoration: none;
+}
+
+.footer ul /* remove the dots from the link list */
+{
+    list-style-type:none;
+}
