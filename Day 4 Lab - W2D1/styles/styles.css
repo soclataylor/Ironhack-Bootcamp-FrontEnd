@@ -8,9 +8,9 @@
 
 /*
             COLOR TABLE:
-            blue: rgb(67, 163, 230)
-            dark blue: rgb(25, 33, 41)
-            text: rgb(0,0,0)
+            Dark Blue: rgb(25, 33, 41)
+            Light Blue:  rgb(67, 163, 230)
+            Text: rgb(255,255,255)
 */
 
 body 
@@ -19,10 +19,34 @@ body
     margin: 0;
     padding-top: 100px;
     width: 100vw;    
+    background-color:rgb(25, 33, 41);
+    color:white;
 
 }
 
 #form-container 
 {
     margin: auto;
+    width: 250px;
+    border: 1px solid rgb(67, 163, 230);
+    padding:20px;
 }
+
+input /* vertical distance between elements */
+{
+    margin:5px 0px; /*vertically 5px, horizontally 0px*/
+}
+
+
+input[type=submit]/* stylinkg the submit button */
+{
+    background-color:rgb(67, 163, 230);
+    color:white;
+    border-radius:10px;
+    
+    border:none;
+
+    padding:5px;
+    margin-top:5px;
+}
+
