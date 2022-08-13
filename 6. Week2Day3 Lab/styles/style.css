@@ -1,0 +1,15 @@
+/*
+            MARIONA BATALLA TAYLOR
+            mariona.batalla.taylor@gmail.com
+            IronHack - FrontEnd Bootcamp
+            Week 2 - Day 3 Lab
+            July 2022
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* 
+{
+    /* we initially define by default margin and padding as 0*/
+    padding: 0;
+    margin: 0;
+}
