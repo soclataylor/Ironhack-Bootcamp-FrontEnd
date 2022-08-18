@@ -6,6 +6,18 @@
   <router-view/>
 </template>
 
+<script>
+import ToDoItem from './components/ToDoItem.vue';
+
+export default {
+  name: 'app',
+  components: {
+    // eslint-disable-next-line vue/no-unused-components
+    ToDoItem,
+  },
+};
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
